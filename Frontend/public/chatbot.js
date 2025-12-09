@@ -89,7 +89,7 @@ class Chatbot {
             // 1. Once deployed to Render, paste the URL here (e.g., https://jester-backend.onrender.com)
             // 2. Keep the quotes! Do NOT add a trailing slash '/' at the end.
             
-            const backendUrl = "INSERT_YOUR_RENDER_URL_HERE"; 
+            const backendUrl = "https://chatbot-using-jokeapi.onrender.com"; 
             
             // --- LOCAL TESTING ---
             // If testing on your computer, uncomment the line below and comment out the line above:
