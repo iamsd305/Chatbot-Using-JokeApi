@@ -1,0 +1,68 @@
+# -------------------------
+# Node / Next.js
+# -------------------------
+node_modules/
+.next/
+out/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json*
+# if you want to commit lockfile, remove the line above
+
+# Env files (keep an example instead)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# -------------------------
+# Frontend build artefacts
+# -------------------------
+*.log
+logs/
+coverage/
+.cache/
+
+# -------------------------
+# Backend (C) build artefacts
+# -------------------------
+backend/**/*.o
+backend/**/*.obj
+backend/**/*.exe
+backend/**/*.out
+backend/build/
+backend/bin/
+
+# if your C server is elsewhere, add its path:
+# server/**/*.o
+# server/**/*.exe
+
+# -------------------------
+# Databases / Prisma
+# -------------------------
+db/*.db
+prisma/*.db
+prisma/migrations/**/snapshot-*.sql
+
+# -------------------------
+# Editor / OS junk
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Misc
+# -------------------------
+*.tmp
+*.bak
