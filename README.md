@@ -88,7 +88,7 @@ https://your-backend-name.onrender.com
 **🟩 Frontend (Static Files: HTML, CSS, JS)**
 
 - The frontend lives in the public/ folder.
-- You can deploy it on Vercel:
+- You can deploy it on Vercel/Netlify(I did on netlify):
 - Import the GitHub repository
 - Framework: Static Site
 - Output directory: public
